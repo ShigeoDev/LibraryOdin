@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+    margin: auto;
+    padding: 10px 5px 10px 10px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.label-group {
+    display: block;
+    margin: auto;
+}
+
+input {
+    width: 200px;
+}
+
+label {
+    display: inline-block;
+    width: 70px;
+}
+.buttons {
+    display: flex;
+    width: 300px;
+    margin: auto;
+    justify-items: center;
+}
+
+.book {
+    display: inline-block;
+    width: 100px;
+    margin: auto;
+}
+
+.clear {
+    display: inline-block;
+    width: 100px;
+    margin: auto;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+
+.cell {
+    background-color: lightcoral;
+}
